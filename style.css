@@ -1,0 +1,14 @@
+h1{
+  width: 300px;
+  margin: 0 auto; /* 上下0、左右はブラウザが自動計算 */
+  font-size: 40px;
+}
+#drawButton{
+  /* ① ベースのデザイン */
+  display: block;
+  margin: 30px auto;        /* 上下に30px、左右は中央寄せ */
+  padding: 12px 35px;       /* ボタンの内側の余白 */
+  font-size: 18px;          /* 文字の大きさ */
+  border-radius: 25px;      /* 角を丸くしてカプセル型に */
+  transition: all 0.2s;     /* 動きをなめらかにする設定 */
+}
